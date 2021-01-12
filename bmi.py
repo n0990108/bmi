@@ -2,7 +2,7 @@ height = input('請輸入身高(公分): ')
 weight = input('請輸入體重(公斤): ')
 height = float(height)
 weight = float(weight)
-height = height / 100 #換成公尺
+height = height / 100 # 換成公尺
 bmi = weight / height / height # 不支援^
 
 if bmi < 18.5:
